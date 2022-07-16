@@ -19,6 +19,9 @@ fn main() {
     let b = b + 1;
     println!("b = {}", b); // b will be 7
 
+    // constant declaration, type and value must be specified - can never change value or type
+    const SECONDS_IN_MINUTE: u32 = 60;
+
     // string formatting
     println!("value of x is: {}", x);
 
